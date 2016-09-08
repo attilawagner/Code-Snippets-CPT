@@ -173,7 +173,7 @@ class Snippet_CPT_Frontend {
 				: true;
 		}
 
-		$data_attrs['maxLines'] = absint( $atts['maxLines'] );
+		$data_attrs['maxLines'] = absint( $atts['max_lines'] );
 		$data_attrs['maxLines'] = $data_attrs['maxLines'] > 2 ? $data_attrs['maxLines'] : 'auto';
 
 		$data_attrs['lang'] = apply_filters( 'dsgnwrks_snippet_default_ace_lang', 'text' );
